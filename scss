@@ -1,0 +1,7 @@
+Hotel (HotelID, HotelName, Address, PhoneNumber, StarRating)
+
+Room (RoomNumber, HotelID, RoomType, BedType, Price)
+
+Guest (GuestID, FirstName, LastName, Address, PhoneNumber)
+
+Stay (StayID, GuestID, RoomNumber, CheckInDate, CheckOutDate)
